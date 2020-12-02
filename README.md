@@ -1,30 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Please update value in the {}  -->
 
-## Getting Started
+<h1 align="center">Reusable Components</h1>
 
-First, run the development server:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://{your-demo-link.your-domain}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/durashere/devchallenges-reusable-components">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+      Challenge
+    </a>
+  </h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [User Stories](#user-stories)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+In this devchallenge i learned how to actually create reusable component, storybook and tailwind
+
+### User Stories
+
+#### Button Component
+
+- [x] I can see different button types: default, outline and text
+- [x] I can choose to disable box-shadow
+- [x] I can choose to disable button
+- [x] I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- [x] I can have different button sizes
+- [x] I can have different colors
+- [x] When I hover or focus, I can see visual indicators
+- [x] I can still access all button attributes
+- [x] User story (optional): Show button in a similar way like the design or use Storybook. Otherwise, showing the button in multiple states is enough
+
+### Built With
+
+- [React](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Storybook](https://storybook.js.org/)
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+
+## How To Use
+
+<!-- This is an example, please update according to your application -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/durashere/devchallenges-reusable-components
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run storybook
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
