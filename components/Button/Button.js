@@ -1,16 +1,16 @@
 import React from "react"
 import PropTypes from "prop-types"
-import "./button.css"
+import "./tailwind.css"
 
 export const Button = ({
+  label,
+  size,
+  disableShadow,
+  disabled,
   color,
   variant,
   startIcon,
   endIcon,
-  disableShadow,
-  disabled,
-  size,
-  label,
   ...props
 }) => {
   const shadow = disableShadow ? "" : "shadow"
@@ -48,8 +48,6 @@ export const Button = ({
 
   return (
     <button
-      type="button"
-      disabled
       className={[
         "flex items-center font-noto px-4 py-2 rounded-lg focus:outline-none",
         `text-${size}`,
@@ -58,6 +56,8 @@ export const Button = ({
         shadow,
         isDisabled,
       ].join(" ")}
+      type="button"
+      disabled={disabled}
       {...props}
     >
       <span class="mr-2 material-icons">{startIcon}</span>
@@ -82,7 +82,6 @@ Button.defaultProps = {
   label: "Button",
   size: "md",
   disableShadow: false,
-  disabled: false,
   color: "default",
   variant: "default",
 }

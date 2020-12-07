@@ -17,7 +17,11 @@
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
-      Challenge
+      Challenge #1
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+      Challenge #2
     </a>
   </h3>
 </div>
@@ -52,15 +56,29 @@ In this devchallenge i learned how to actually create reusable component, storyb
 - [x] I can still access all button attributes
 - [x] User story (optional): Show button in a similar way like the design or use Storybook. Otherwise, showing the button in multiple states is enough
 
+#### Input Component
+
+- [x] User story: I can see error state
+- [x] User story: I can choose to disable input
+- [x] User story: I can choose to have helper text
+- [x] User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- [x] User story: I can have different input sizes
+- [x] User story: I can have different colors
+- [x] User story: I can choose to have input take the width of the parent
+- [x] User story: I can have multiline input like a textarea
+- [x] User story: When I hover or focus, I can see visual indicators
+- [x] User story: I can still access all input attributes
+- [x] User story (optional): Show input in a similar way like the design or use Storybook. Otherwise, showing the input in multiple states is enough
+
 ### Built With
 
-- [React](https://nextjs.org/)
+- [NextJS](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [Storybook](https://storybook.js.org/)
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge #1](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) [challenge #2](https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp) was to build an application to complete the given user stories.
 
 ## How To Use
 
