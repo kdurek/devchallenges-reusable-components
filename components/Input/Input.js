@@ -46,7 +46,7 @@ export const Input = ({
         {multiline ? (
           <textarea
             className={[
-              "w-full resize-none focus:outline-none placeholder-gray-400 font-noto font-medium text-sm text-gray-900",
+              "w-full resize-none focus:outline-none placeholder-gray-400 font-noto font-medium text-sm text-gray-900 bg-transparent",
             ].join(" ")}
             rows={row}
             disabled={disabled}
@@ -58,7 +58,7 @@ export const Input = ({
         ) : (
           <input
             className={[
-              "w-full focus:outline-none placeholder-gray-400 font-noto font-medium text-sm text-gray-900",
+              "w-full focus:outline-none placeholder-gray-400 font-noto font-medium text-sm text-gray-900 bg-transparent",
             ].join(" ")}
             placeholder="Placeholder"
             disabled={disabled}
